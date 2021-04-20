@@ -21,4 +21,47 @@ h1 {
     width: 230px;
     height: 60px;
     font-size: 20px;
+    border-radius: 10px;
+}
+
+#popUp {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 238, 253);
+    background-color: rgba(7, 237, 253, 0.356);
+    font-size: 30px;
+}
+
+input#nosaukums {
+    height: 25px;
+    width: 150px;
+    font-size: 15px;
+    border: solid 2px gold;
+}
+
+#pievienotListam {
+    width: 130px;
+    height: 40px;
+    font-size: 25px;
+    border: solid 2px brown;
+}
+
+input#daudzums {
+    height: 25px;
+    width: 150px;
+    font-size: 15px;
+    border: solid 2px gold;
+}
+
+#form {
+    background-color: firebrick;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 25%;
 }
